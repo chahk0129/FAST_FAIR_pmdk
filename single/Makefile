@@ -2,7 +2,6 @@
 .DEFAULT_GOAL := all
 
 LIBS=-lrt -lm -lpmemobj
-INCLUDES=-I ../../install/usr/local/include
 CFLAGS=-O3 -std=c++11 -w
 
 all: main
