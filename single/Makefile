@@ -4,9 +4,6 @@
 LIBS=-lrt -lm -lpmemobj
 INCLUDES=-I ../../install/usr/local/include
 CFLAGS=-O3 -std=c++11 -w
-#CFLAGS=-O0 -std=c++11 -w #-g
-
-output = btree 
 
 all: main
 

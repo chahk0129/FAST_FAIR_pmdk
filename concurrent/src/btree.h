@@ -25,7 +25,7 @@
 #include <shared_mutex>
 #include <libpmemobj.h>
 
-#define PAGESIZE (2048)
+#define PAGESIZE (512)
 
 #define CPU_FREQ_MHZ (1994)
 #define DELAY_IN_NS (1000)
